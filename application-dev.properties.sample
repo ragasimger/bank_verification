@@ -5,14 +5,14 @@ media.file.path=./static/file/
 media.url=http://${server.address}:${server.port}
 
 #Production DB CONFIG
-#spring.datasource.url=jdbc:postgresql://localhost:5432/bank_verification_db
-spring.datasource.url=jdbc:postgresql://postgres:5432/bank_verification_db
+#spring.datasource.url=jdbc:postgresql://localhost:5432/demo_db
+spring.datasource.url=jdbc:postgresql://postgres:5432/demo_db
 # postgres config
 #spring.datasource.username=postgres
-#spring.datasource.password=soori123
+#spring.datasource.password=demo123
 # karja username and password
-spring.datasource.username=soori
-spring.datasource.password=soori123
+spring.datasource.username=demo
+spring.datasource.password=demo123
 
 
 
