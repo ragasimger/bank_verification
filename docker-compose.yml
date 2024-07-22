@@ -4,10 +4,13 @@ services:
     image: bank-verification-java-app
     build: .
     ports:
-      - "8082:8082"
+      - "9125:8082"
     restart: always
     depends_on:
       - postgres
+    volumes:
+      - ./static/image:/usr/src/app/static/image
+      - ./media/media:/usr/src/app/media
 
   postgres:
     image: postgres:latest
