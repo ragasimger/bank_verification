@@ -11,6 +11,7 @@ services:
     volumes:
       - ./static/image:/usr/src/app/static/image
       - ./media/media:/usr/src/app/media
+      - ./keystore:/usr/src/app/keystore
 
   postgres:
     image: postgres:latest
